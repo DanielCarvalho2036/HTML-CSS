@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Righteous & family= Sarala:wght@400;700 & display=swap');
+
+:root{
+    --fonte-primaria: 'Righteous', cursive;
+    --fonte-secundaria: 'Sarala', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 100%;
+    background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    padding-top: 24px;
+}
+
+header > img{
+    height: 72px;
+}
+
+nav a{
+    font-family: var(--fonte-secundaria);
+    color: #FFF2E7;
+    gap: 32px;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    font-weight: 700px;
+    color: #ECD6C4
+}
+
+nav > a{
+    padding: 24px;
+}
+
+main{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+section.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+section.conteudo-principal div h1{
+    font-family: var(--fonte-primaria);
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+section.conteudo-principal div p{
+    font-family: var(--fonte-secundaria);
+    color: #ECD6C4;
+    font-size: 24px;
+}
+
+section.conteudo-principal div button{
+    font-size: 20px;
+    border: none;
+    height: 67px;
+    width: 185px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+section.conteudo-principal div button:hover{
+    background-color: #ECD6C4;
+
+}
+
+section.conteudo-principal img{
+    width: 390px;
+    height: 430px;
+}
+
+section.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+section.conteudo-secundario h2{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: var(--fonte-primaria);
+    color: #FFF2E7;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+section.conteudo-secundario p{
+    font-family: var(--fonte-secundaria);
+    color: #ECD6C4;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+footer{
+    padding: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+footer img{
+    height: 55px;
+    display: block;
+    margin: auto;
+
+}
